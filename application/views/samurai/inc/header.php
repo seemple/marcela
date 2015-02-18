@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-US" class="homepage">
+<html lang="en-US" class="<?php echo $class;?>">
 <head>
     <meta charset="utf-8">
-    <title>Marcela Khouri | <? echo $title;?></title>
+    <title>Marcela Khouri | <?php echo $title;?></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<?
+	<?php
 	if(!empty($meta))
 	foreach($meta as $name=>$content){
 		echo "\n\t\t";

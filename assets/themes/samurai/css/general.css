@@ -519,6 +519,8 @@ html.aboutpage,
 html.presspage,
 html.awardpage {
   overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 html.contactpage {
   overflow-y: auto;
@@ -590,6 +592,9 @@ html.portfoliopage body {
 html.gallerypage body {
   background: #1f1f1f;
 }
+html.homepage body {
+}
+
 /***********************************************************/
 /* HEADER
 /***********************************************************/

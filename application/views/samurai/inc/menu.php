@@ -3,28 +3,18 @@
         <div class="menu-align">
             <!-- Main Menu Left -->
             <ul class="menu menu-left">
-                <li><a href="portfolio-single.html">Gallery</a></li>
-                <li><a href="about1.html" >About</a></li>
-                <li><a href="blog-single.html">Post</a>
-                    <ul>
-                        <li><a>Drop down example</a></li>
-                        <li><a>Drop down example</a></li>
-                        <li><a>Drop down example</a></li>
-                        <li><a>Drop down example</a></li>
-                    </ul>
-                </li>
-                <li><a href="home.html" >Home</a></li>
+                <li><a href="<?php echo base_url();?>albums">Albumes</a></li>
+                <li><a href="<?php echo base_url();?>acerca_de" >Acerca de</a></li>
+                <li><a href="<?php echo base_url();?>inicio" >Inicio</a></li>
             </ul>
 
             <!-- Logo -->
-            <ul class="logo"><li><a href="home.html"></a></li></ul>
+            <ul class="logo"><li><a href="<?php echo base_url();?>"></a></li></ul>
 
             <!-- Main Menu Right -->
             <ul class="menu menu-right">
-                <li><a href="blog-archive.html" >Blog</a></li>
-                <li><a href="about2.html">Press</a></li>
-                <li><a href="portfolio.html" >Portfolio</a> </li>
-                <li><a href="contacts.html" >Contact</a></li>
+                <li><a href="<?php echo base_url();?>">Facebook</a> </li>
+                <li><a href="<?php echo base_url();?>contacto">Contacto</a></li>
             </ul>
 
             <!-- DropDown -->
@@ -32,24 +22,11 @@
                 <a>MENU</a>
 
                 <ul class="dropdown-menu">
-                    <li><a href="home.html" >Home</a></li>
-                    <li>
-                        <a>Post</a>
-                        <ul>
-                            <li><a>Drop down example</a></li>
-                            <li><a>Drop down example</a></li>
-                            <li><a>Drop down example</a></li>
-                            <li><a>Drop down example</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about1.html" >About</a></li>
-                    <li>
-                        <a href="portfolio-single.html">Gallery</a>
-                    </li>
-                    <li><a href="blog-archive.html" >Blog</a></li>
-                    <li><a href="about2.html">Press</a></li>
-                    <li><a href="portfolio.html" >Portfolio</a> </li>
-                    <li><a href="contacts.html" >Contact</a></li>
+                    <li><a href="<?php echo base_url();?>inicio" >Inicio</a></li>
+                    <li><a href="<?php echo base_url();?>acerca_de" >Acerca de</a></li>
+                    <li><a href="<?php echo base_url();?>albums" >Albumes</a></li>
+                    <li><a href="<?php echo base_url();?>contacto">Contacto</a> </li>
+                    <li><a href="/" >Facebook</a></li>
                 </ul>
             </div>
         </div>

@@ -231,7 +231,7 @@ function InitAboutScrollable()
 /* PORTFOLIO
 /***********************************************************/
 
-function InitPortfolio()
+function InitAlbums()
 {
     // Initialize scrollable
     $("#scrollable").scrollable();
