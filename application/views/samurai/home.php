@@ -1,3 +1,4 @@
+    <div id="loading"></div>
     <!-- Background FlexSlider -->
     <div id="background-slider">
         <ul class="slides">

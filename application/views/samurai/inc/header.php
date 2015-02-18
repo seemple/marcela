@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" class="homepage">
+<html lang="en-US" class="<?php echo $class;?>">
 <head>
     <meta charset="utf-8">
     <title>Marcela Khouri | <?php echo $title;?></title>

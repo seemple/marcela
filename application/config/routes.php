@@ -38,9 +38,10 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "home/homepage/index";
 $route['404_override'] = '';
-
+$route["albums"] = "home/albums/index";
+$route["inicio"] = "home/homepage/index";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

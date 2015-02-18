@@ -17,14 +17,16 @@ class Home extends CI_Controller {
 		$this->output->set_template('samurai');
 	}
 
-	public function index($data=NULL){
-		$this->load->section('header', 'samurai/inc/header',array("title"=>"Home Page"));
+	public function index($view,$data=NULL,$class=NULL){
+		$this->load->section('header', 'samurai/inc/header',array("title"=>ucfirst($view),"class"=>$class));
 		$this->load->section('menu', 'samurai/inc/menu');
 		$this->load->section('footer', 'samurai/inc/footer');
-		$this->load->view('samurai/home',array("data"=>$data));
+		$this->load->section('scripts', 'samurai/inc/scripts',array("init"=>$view));
+		$this->load->view('samurai/'.$view,array("data"=>$data));
 	}
 	
-	public function get_favorites($section) {
+	// Solo muestra fotos de un determinado album
+	public function homepage($section) {
 		$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>"72157650224856848");
 		$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
 		$favs = array();
@@ -39,10 +41,45 @@ class Home extends CI_Controller {
 					array_push ($favs,$info);
 		}
 
-		return $this->{$section}($favs);
+		return $this->{$section}("home",$favs,"homepage");
 	}
 	
-	public function get_all_albums()
+	// Muestra 1 foto de cada uno de los albums que tenga.
+	public function albums($section)
+	{
+		$params = array("user_id"=>$this->config->item("flickr_user"));
+		$rsp = $this->flickr->get("flickr.photosets.getList",$params);
+		$photosets = $rsp["photosets"]["photoset"];
+
+		$album = array();
+		
+		if ($rsp['stat'] == 'ok') {
+		
+		// Array con Titulo y Fotos de cada album
+			foreach ($photosets as $i => $v ) {
+				$info["title"] = $v["title"]["_content"];
+				$info["album_id"] = $v["id"];
+		
+				$params = array("photoset_id"=>"{$v['id']}");
+				$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
+		
+				$info["farm"] = $fotos["photoset"]["photo"][0]["farm"];
+				$info["secret"] =$fotos["photoset"]["photo"][0]["secret"];
+				$info["server"] = $fotos["photoset"]["photo"][0]["server"];
+				$info["id"] = $fotos["photoset"]["photo"][0]["id"];
+				$info["pic"] = "https://farm".$info["farm"].".staticflickr.com/".$info["server"]."/".$info["id"]."_".$info["secret"].".jpg";
+				
+				array_push ($album,$info);
+			}
+			return $this->{$section}("albums",$album,"portfoliopage");
+			
+		} else {
+			print_r($rsp);	
+		}
+	}
+
+	// Muestra todas las fotos de todos los albumes.
+	public function view_album($section)
 	{
 		$params = array("user_id"=>$this->config->item("flickr_user"));
 		$rsp = $this->flickr->get("flickr.photosets.getList",$params);
@@ -71,12 +108,11 @@ class Home extends CI_Controller {
 				
 			}
 			
-			echo "<pre>";
-			print_r($album);
-			echo "</pre>";
+			return $this->{$section}("albums",$album);
+			
 		} else {
 			print_r($rsp);	
 		}
 	}
-
+	
 }

@@ -11,13 +11,12 @@
                 <li class="linkedin"><a href="#" ></a></li>
                 <li class="instagram"><a href="#" ></a></li>
                 <li class="mail"><a href="#" ></a></li>
-                <li class="rss"><a href="#" ></a></li>
             </ul>
 
             <!-- Footer Menu -->
             <div class="center">
                 <ul class="nav">
-                    <li><span>Select a Category</span>
+                    <li><span>Seleccione una categoria</span>
                         <ul>
                             <li><a href="blog-archive.html" >Geisha</a></li>
                             <li><a href="blog-archive.html" >Tea Ceremony</a></li>
@@ -31,7 +30,7 @@
             </div>
 
             <!-- Copy -->
-            <p class="right"> &copy; 2013 Samurai, ALL RIGHTS RESERVED </p>
+            <p class="right"> &copy; 2015 - Marcela Khouri Fotograf&iacute;a.</p>
         </div>
     </nav>
 
