@@ -27,7 +27,7 @@ class Home extends CI_Controller {
 	
 	// Solo muestra fotos de un determinado album
 	public function homepage($section) {
-		$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>"72157650908792925");
+		$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>"72157651903822606");
 		$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
 		$favs = array();
 		
