@@ -42,6 +42,7 @@ $route['default_controller'] = "home/homepage/index";
 $route['404_override'] = '';
 $route["albums"] = "home/albums/index";
 $route["inicio"] = "home/homepage/index";
+$route["albums/(:any)/(:num)"] = "home/view_album/index/$2";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

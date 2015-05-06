@@ -252,7 +252,7 @@ function InitAlbums()
     });
 }
 
-function InitPortfolioFlexSlider()
+function InitAlbum_detail()
 {
     var count = $('#carousel li').length;
     var scroll = $('.slider .scrollbar');

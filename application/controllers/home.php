@@ -71,6 +71,7 @@ class Home extends CI_Controller {
 				
 				array_push ($album,$info);
 			}
+			
 			return $this->{$section}("albums",$album,"portfoliopage");
 			
 		} else {
@@ -79,39 +80,30 @@ class Home extends CI_Controller {
 	}
 
 	// Muestra todas las fotos de todos los albumes.
-	public function view_album($section)
+	public function view_album($section,$photoset)
 	{
-		$params = array("user_id"=>$this->config->item("flickr_user"));
-		$rsp = $this->flickr->get("flickr.photosets.getList",$params);
-		$photosets = $rsp["photosets"]["photoset"];
+			$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>$photoset,"extras"=>"date_upload");
+			$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
+			$favs = array();
 
-		$album = array();
-		
-		if ($rsp['stat'] == 'ok') {
-		
-		// Array con Titulo y Fotos de cada album
-			foreach ($photosets as $i => $v ) {
-				$info["title"] = $v["title"]["_content"];
-				$info["album_id"] = $v["id"];
-		
-				$params = array("photoset_id"=>"{$v['id']}");
-				$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
-		
-				foreach ($fotos["photoset"]["photo"] as $item) {
-					$info["farm"] = $item["farm"];
-					$info["secret"] = $item["secret"];
-					$info["server"] = $item["server"];
-					$info["id"] = $item["id"];
-					$info["pic"] = "https://farm".$item["farm"].".staticflickr.com/".$item["server"]."/".$item["id"]."_".$item["secret"]."_s.jpg";
-					array_push ($album,$info);
-				}
-				
+		if ($fotos['stat'] == 'ok') {
+			
+			foreach ($fotos["photoset"]["photo"] as $item) {
+						$info["farm"] = $item["farm"];
+						$info["secret"] = $item["secret"];
+						$info["title"] = $item["title"];
+						$info["server"] = $item["server"];
+						$info["dateupload"] = date('d/m/Y', $item["dateupload"]);
+						$info["id"] = $item["id"];
+						$info["pic"] = "https://farm".$item["farm"].".staticflickr.com/".$item["server"]."/".$item["id"]."_".$item["secret"]."_c.jpg";
+						array_push ($favs,$info);
 			}
 			
-			return $this->{$section}("albums",$album);
+			return $this->{$section}("album_detail",$favs);
+
 			
 		} else {
-			print_r($rsp);	
+			print_r($fotos);	
 		}
 	}
 	
