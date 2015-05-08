@@ -3,6 +3,7 @@
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/jquery.tools.min.js"></script>
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/libs/jquery.flexslider-min.js"></script>
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/libs/jquery.mousewheel.js"></script>
+    <script src="<?php echo base_url("assets/themes/samurai");?>/js/libs/jquery.jscrollpane.min.js"></script>
     <!-- Custom -->
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/scripts.js"></script>
 

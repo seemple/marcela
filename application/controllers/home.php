@@ -18,9 +18,22 @@ class Home extends CI_Controller {
 	}
 
 	public function index($view,$data=NULL,$class=NULL){
+		// Get Albums list
+		$params = array("user_id"=>$this->config->item("flickr_user"));
+		$rsp = $this->flickr->get("flickr.photosets.getList",$params);
+		$photosets = $rsp["photosets"]["photoset"];
+		$albumlist = [];
+		if ($rsp['stat'] == 'ok') {
+			foreach ($photosets as $i => $v ) {
+				$info["title"] = $v["title"]["_content"];
+				$info["album_id"] = $v["id"];
+				array_push ($albumlist,$info);
+			}
+		}
+		
 		$this->load->section('header', 'samurai/inc/header',array("title"=>ucfirst($view),"class"=>$class));
 		$this->load->section('menu', 'samurai/inc/menu');
-		$this->load->section('footer', 'samurai/inc/footer');
+		$this->load->section('footer', 'samurai/inc/footer',array("albumlist"=>$albumlist));
 		$this->load->section('scripts', 'samurai/inc/scripts',array("init"=>$view));
 		$this->load->view('samurai/'.$view,array("data"=>$data));
 	}

@@ -18,12 +18,9 @@
                 <ul class="nav">
                     <li><span>Seleccione una categoria</span>
                         <ul>
-                            <li><a href="blog-archive.html" >Geisha</a></li>
-                            <li><a href="blog-archive.html" >Tea Ceremony</a></li>
-                            <li><a href="blog-archive.html" >Sumo</a></li>
-                            <li><a href="blog-archive.html" >Hanetsuki</a></li>
-                            <li><a href="blog-archive.html" >Tea Ceremony</a></li>
-                            <li><a href="blog-archive.html" >Festivals</a></li>
+                            <?php foreach ($albumlist as $item) {?>
+                            <li><a href="<?php echo base_url();?>albums/<?php echo url_title($item["title"]);?>/<?php echo $item["album_id"];?>"><?php echo $item["title"];?></a></li>
+                        	<?php } ?>
                         </ul>
                     </li>
                 </ul>
