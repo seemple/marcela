@@ -44,6 +44,7 @@ $route["albums"] = "home/albums/index";
 $route["inicio"] = "home/homepage/index";
 $route["albums/(:any)/(:num)"] = "home/view_album/index/$2";
 $route["acerca_de"] = "home/index/about/NULL/aboutpage";
+$route["contacto"] = "home/contacto/index";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

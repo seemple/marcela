@@ -15,7 +15,7 @@
     <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="<?php echo base_url("assets/themes/samurai");?>/css/general.css" />
+    <link rel="stylesheet" href="<?php echo base_url("assets/themes/samurai");?>/css/mk.css" />
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css' />

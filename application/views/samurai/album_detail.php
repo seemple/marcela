@@ -1,9 +1,9 @@
 <div class="portfolio-single-center-align">
 
         <div class="portfolio-single-title">
-            <h2>Suspendisse tellus massa</h2>
-            <p>by <a href="#">HACHIRO</a> on September 17, 2013</p>
-            <a href="portfolio.html" class="back">&lt; back to the gallery</a>
+            <h2><?= $data[0]["alb_title"];?></h2>
+            <p>Por <a href="#">Marcela Khouri</a>, creado el <?=date('d/m/Y', $data[0]["create_alb"]);?></p>
+            <a href="<?= base_url();?>albums" class="back">&lt; Volver a los Albumes</a>
         </div>
 
         <section class="slider">

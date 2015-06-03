@@ -166,7 +166,7 @@ function InitAbout()
     }
 
     // SYNAMIC TEXT + SCROLL RESET
-    $(".peoples li .click").click(function(){
+   /* $(".peoples li .click").click(function(){
         // TEXT
         var text = $(this).parents('li').children('.dynamic-text').html();
         $(".content-right .text").html(text);
@@ -177,7 +177,7 @@ function InitAbout()
         var api = jpane.data('jsp');
         api.reinitialise();
         api.scrollToY(0);
-    });
+    });*/
 }
 
 /***********************************************************/

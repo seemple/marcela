@@ -17,7 +17,7 @@ class Home extends CI_Controller {
 		$this->output->set_template('samurai');
 	}
 
-	public function index($view,$data=NULL,$class=NULL){
+	public function index($view,$data=NULL,$class=NULL,$title=NULL){
 		// Get Albums list
 		$params = array("user_id"=>$this->config->item("flickr_user"));
 		$rsp = $this->flickr->get("flickr.photosets.getList",$params);
@@ -31,7 +31,7 @@ class Home extends CI_Controller {
 			}
 		}
 		
-		$this->load->section('header', 'samurai/inc/header',array("title"=>ucfirst($view),"class"=>$class));
+		$this->load->section('header', 'samurai/inc/header',array("title"=>ucfirst($title),"class"=>$class));
 		$this->load->section('menu', 'samurai/inc/menu');
 		$this->load->section('footer', 'samurai/inc/footer',array("albumlist"=>$albumlist));
 		$this->load->section('scripts', 'samurai/inc/scripts',array("init"=>$view));
@@ -54,9 +54,12 @@ class Home extends CI_Controller {
 					array_push ($favs,$info);
 		}
 
-		return $this->{$section}("home",$favs,"homepage");
+		return $this->{$section}("home",$favs,"homepage","Inicio");
 	}
 	
+	public function contacto($section) {
+		return $this->{$section}("contact",NULL,NULL,"Contacto");
+	}
 	// Muestra 1 foto de cada uno de los albums que tenga.
 	public function albums($section)
 	{
@@ -85,7 +88,7 @@ class Home extends CI_Controller {
 				array_push ($album,$info);
 			}
 			
-			return $this->{$section}("albums",$album,"portfoliopage");
+			return $this->{$section}("albums",$album,"portfoliopage","Albums");
 			
 		} else {
 			print_r($rsp);	
@@ -95,6 +98,13 @@ class Home extends CI_Controller {
 	// Muestra todas las fotos de todos los albumes.
 	public function view_album($section,$photoset)
 	{
+
+			// Get album title
+			$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>$photoset);
+			$rsp = $this->flickr->get("flickr.photosets.getList",$params);
+			$alb = $rsp["photosets"]["photoset"];
+			//print_r($alb);
+			// Get Pictures
 			$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>$photoset,"extras"=>"date_upload");
 			$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
 			$favs = array();
@@ -109,10 +119,12 @@ class Home extends CI_Controller {
 						$info["dateupload"] = date('d/m/Y', $item["dateupload"]);
 						$info["id"] = $item["id"];
 						$info["pic"] = "https://farm".$item["farm"].".staticflickr.com/".$item["server"]."/".$item["id"]."_".$item["secret"]."_c.jpg";
+						$info["alb_title"] = $alb[0]["title"]["_content"];
+						$info["create_alb"] = $alb[0]["date_create"];
 						array_push ($favs,$info);
 			}
 			
-			return $this->{$section}("album_detail",$favs);
+			return $this->{$section}("album_detail",$favs,"gallerypage","Albums - ".$alb[0]["title"]["_content"]);
 
 			
 		} else {

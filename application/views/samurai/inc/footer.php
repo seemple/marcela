@@ -16,7 +16,7 @@
             <!-- Footer Menu -->
             <div class="center">
                 <ul class="nav">
-                    <li><span>Seleccione una categoria</span>
+                    <li><span>Mis Albumes</span>
                         <ul>
                             <?php foreach ($albumlist as $item) {?>
                             <li><a href="<?php echo base_url();?>albums/<?php echo url_title($item["title"]);?>/<?php echo $item["album_id"];?>"><?php echo $item["title"];?></a></li>

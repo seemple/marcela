@@ -1,3 +1,4 @@
+
     <!-- Content -->
     <div class="contacts-center">
         <div class="content">
@@ -53,3 +54,9 @@
 
         </div>
     </div>
+    
+   <script type="text/javascript">
+        // Other Stuff
+        InitAbout();
+    </script>
+
