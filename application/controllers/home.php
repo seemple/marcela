@@ -58,7 +58,7 @@ class Home extends CI_Controller {
 	}
 	
 	public function contacto($section) {
-		return $this->{$section}("contact",NULL,NULL,"Contacto");
+		return $this->{$section}("contact",NULL,"contactpage","Contacto");
 	}
 	// Muestra 1 foto de cada uno de los albums que tenga.
 	public function albums($section)

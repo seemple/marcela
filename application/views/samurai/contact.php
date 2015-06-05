@@ -25,19 +25,19 @@
                 </div>
 
                 <div class="right">
-                    <form method="post" id="contact-form" action="http://alethemes.com/html/samurai/contacts.html" onSubmit="">
+                    <form method="post" id="formContacto" action="<?= base_url();?>contacto/enviar" >
                         <div class="form-left">
-                            <input name="name" type="text" placeholder="Your Name"/>
-                            <input name="email" type="text" placeholder="Email (required)"/>
-                            <input name="phone" type="text" placeholder="Phone"/>
-                            <input name="location" type="text" placeholder="Event location"/>
-                            <input name="date" type="text" placeholder="Event date"/>
+                            <input name="nombre" class="campos" type="text" placeholder="Su nombre (requerido)"/>
+                            <input name="email" class="campos" type="text" placeholder="Email (requerido)"/>
+                            <input name="telefono" class="campos" type="text" placeholder="Telefono"/>
+                            <input name="ubicacion" class="campos" type="text" placeholder="Su Ubicacion"/>
+                            <input name="contacto" class="campos" type="text" placeholder="Como me conoció?"/>
                         </div>
 
                         <div class="form-right">
-                            <input name="hear" type="text" placeholder="How did you hear about us?"/>
-                            <textarea name="message"  placeholder="Your Message (required)"></textarea>
-                            <input type="submit" value="Submit"/>
+                            <input name="asunto" class="campos" type="text" placeholder="Asunto del mensaje"/>
+                            <textarea name="mensaje"  class="campos" placeholder="Su mensaje (requerido)"></textarea>
+                            <input type="submit" value="ENVIAR"/>
                         </div>
                     </form>
                 </div>
@@ -46,17 +46,8 @@
 
             <div class="line"></div>
 
-            <div class="contact-footer">
-                <p>
-                    Donec nisi mauris, pellentesque non aliquet sed, rutrum at tellus. Phasellus sit amet pharetra massa, non blandit eros. Integer mollis lectus leo, at laoreet urna dictum vel. Phasellus lorem mi, ultrices a turpis eu, varius vulputate augue.
-                </p>
-            </div>
+            <div class="contact-footer"></div>
 
         </div>
     </div>
-    
-   <script type="text/javascript">
-        // Other Stuff
-        InitAbout();
-    </script>
 

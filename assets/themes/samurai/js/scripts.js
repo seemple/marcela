@@ -87,6 +87,38 @@ function InitHome()
     });
 }
 
+/* CONTACT */
+
+function InitContact()
+{
+	
+    $("#formContacto").RSV({
+				  onCompleteHandler: $(this).submit(),
+				  displayType: "alert-one",
+				  errorFieldClass: "formee-error",
+						rules: [
+								"valid_email,email,Por favor ingrese un email correcto.",
+								"required,email,Por favor ingrese su email.",
+								"required,nombre,Por favor ingrese su nombre.",
+								"required,mensaje,Por favor ingrese su mensaje."
+								 ]
+	});
+	
+	$("#formContacto").submit(function(e){
+		e.preventDefault();
+					$.ajax({
+						type: "POST",
+						url: "/marcela/contacto/enviar",
+						data: $('#formContacto .campos').serialize()
+					}).success(function(response) {
+						response = JSON.parse(response);
+						$(".contact-footer").append(response.mensaje);
+					});
+		
+	});
+
+} 
+	
 /***********************************************************/
 /* BLOG
 /***********************************************************/
