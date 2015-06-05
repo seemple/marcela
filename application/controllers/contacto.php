@@ -10,7 +10,7 @@ public function enviar()
 	{
 			
 
-				$this->config->load("Mailing");
+				$this->config->load("mailing");
 				$this->load->library('Mailing');
 				$msj = $this->input->post();
 

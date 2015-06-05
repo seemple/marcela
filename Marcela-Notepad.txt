@@ -1,0 +1,722 @@
+<NotepadPlus>
+    <Project name="Marcela">
+        <Folder name="application">
+            <Folder name="cache">
+                <File name="application\cache\.htaccess" />
+                <File name="application\cache\index.html" />
+            </Folder>
+            <Folder name="config">
+                <File name="application\config\autoload.php" />
+                <File name="application\config\config.php" />
+                <File name="application\config\constants.php" />
+                <File name="application\config\database.php" />
+                <File name="application\config\doctypes.php" />
+                <File name="application\config\flickr.php" />
+                <File name="application\config\foreign_chars.php" />
+                <File name="application\config\hooks.php" />
+                <File name="application\config\index.html" />
+                <File name="application\config\migration.php" />
+                <File name="application\config\mimes.php" />
+                <File name="application\config\profiler.php" />
+                <File name="application\config\routes.php" />
+                <File name="application\config\smileys.php" />
+                <File name="application\config\user_agents.php" />
+            </Folder>
+            <Folder name="controllers">
+                <File name="application\controllers\example.php" />
+                <File name="application\controllers\home.php" />
+                <File name="application\controllers\index.html" />
+                <File name="application\controllers\welcome.php" />
+            </Folder>
+            <Folder name="core">
+                <File name="application\core\index.html" />
+                <File name="application\core\MY_Loader.php" />
+                <File name="application\core\MY_Output.php" />
+            </Folder>
+            <Folder name="errors">
+                <File name="application\errors\error_404.php" />
+                <File name="application\errors\error_db.php" />
+                <File name="application\errors\error_general.php" />
+                <File name="application\errors\error_php.php" />
+                <File name="application\errors\index.html" />
+            </Folder>
+            <Folder name="helpers">
+                <File name="application\helpers\index.html" />
+            </Folder>
+            <Folder name="hooks">
+                <File name="application\hooks\index.html" />
+            </Folder>
+            <Folder name="language">
+                <Folder name="english">
+                    <File name="application\language\english\index.html" />
+                </Folder>
+                <File name="application\language\index.html" />
+            </Folder>
+            <Folder name="libraries">
+                <Folder name="autoload">
+                    <File name="application\libraries\autoload\autoload_controller.php" />
+                    <File name="application\libraries\autoload\autoload_functions.php" />
+                </Folder>
+                <File name="application\libraries\flickr.php" />
+                <File name="application\libraries\index.html" />
+            </Folder>
+            <Folder name="logs">
+                <File name="application\logs\index.html" />
+            </Folder>
+            <Folder name="models">
+                <File name="application\models\index.html" />
+            </Folder>
+            <Folder name="third_party">
+                <File name="application\third_party\index.html" />
+            </Folder>
+            <Folder name="views">
+                <Folder name="ci_simplicity">
+                    <File name="application\views\ci_simplicity\example_1.php" />
+                    <File name="application\views\ci_simplicity\example_2.php" />
+                    <File name="application\views\ci_simplicity\example_3.php" />
+                    <File name="application\views\ci_simplicity\example_4.php" />
+                    <File name="application\views\ci_simplicity\sidebar.php" />
+                    <File name="application\views\ci_simplicity\welcome.php" />
+                </Folder>
+                <Folder name="samurai">
+                    <Folder name="inc">
+                        <File name="application\views\samurai\inc\footer.php" />
+                        <File name="application\views\samurai\inc\header.php" />
+                        <File name="application\views\samurai\inc\menu.php" />
+                        <File name="application\views\samurai\inc\scripts.php" />
+                    </Folder>
+                    <File name="application\views\samurai\about.php" />
+                    <File name="application\views\samurai\albums.php" />
+                    <File name="application\views\samurai\album_detail.php" />
+                    <File name="application\views\samurai\contact.php" />
+                    <File name="application\views\samurai\home.php" />
+                </Folder>
+                <Folder name="themes">
+                    <File name="application\views\themes\blank.php" />
+                    <File name="application\views\themes\default.php" />
+                    <File name="application\views\themes\samurai.php" />
+                    <File name="application\views\themes\simple.php" />
+                </Folder>
+                <File name="application\views\index.html" />
+                <File name="application\views\welcome_message.php" />
+            </Folder>
+            <File name="application\.htaccess" />
+            <File name="application\index.html" />
+        </Folder>
+        <Folder name="assets">
+            <Folder name="themes">
+                <Folder name="default">
+                    <Folder name="css">
+                        <File name="assets\themes\default\css\bootstrap-responsive.css" />
+                        <File name="assets\themes\default\css\bootstrap-responsive.min.css" />
+                        <File name="assets\themes\default\css\bootstrap.css" />
+                        <File name="assets\themes\default\css\bootstrap.min.css" />
+                        <File name="assets\themes\default\css\custom.css" />
+                        <File name="assets\themes\default\css\general.css" />
+                        <File name="assets\themes\default\css\index.html" />
+                    </Folder>
+                    <Folder name="hero_files">
+                        <File name="assets\themes\default\hero_files\bootstrap-alert.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-button.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-carousel.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-collapse.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-dropdown.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-modal.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-popover.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-responsive.css" />
+                        <File name="assets\themes\default\hero_files\bootstrap-scrollspy.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-tab.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-tooltip.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-transition.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap-typeahead.js" />
+                        <File name="assets\themes\default\hero_files\bootstrap.css" />
+                        <File name="assets\themes\default\hero_files\index.html" />
+                        <File name="assets\themes\default\hero_files\jquery.js" />
+                    </Folder>
+                    <Folder name="images">
+                        <File name="assets\themes\default\images\facebook-thumb.png" />
+                        <File name="assets\themes\default\images\favicon.png" />
+                        <File name="assets\themes\default\images\glyphicons-halflings-white.png" />
+                        <File name="assets\themes\default\images\glyphicons-halflings.png" />
+                        <File name="assets\themes\default\images\index.html" />
+                        <File name="assets\themes\default\images\logo.png" />
+                    </Folder>
+                    <Folder name="js">
+                        <File name="assets\themes\default\js\bootstrap.js" />
+                        <File name="assets\themes\default\js\bootstrap.min.js" />
+                        <File name="assets\themes\default\js\index.html" />
+                        <File name="assets\themes\default\js\jquery-1.9.1.min.js" />
+                    </Folder>
+                    <File name="assets\themes\default\index.html" />
+                </Folder>
+                <Folder name="samurai">
+                    <Folder name="css">
+                        <Folder name="fancybox">
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_e.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_n.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_ne.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_nw.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_s.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_se.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_sw.html" />
+                            <File name="assets\themes\samurai\css\fancybox\fancy_shadow_w.html" />
+                        </Folder>
+                        <Folder name="fonts">
+                            <File name="assets\themes\samurai\css\fonts\librebaskerville-regular.eot" />
+                            <File name="assets\themes\samurai\css\fonts\librebaskerville-regular.otf" />
+                            <File name="assets\themes\samurai\css\fonts\librebaskerville-regular.svg" />
+                            <File name="assets\themes\samurai\css\fonts\librebaskerville-regular.ttf" />
+                            <File name="assets\themes\samurai\css\fonts\librebaskerville-regular.woff" />
+                            <File name="assets\themes\samurai\css\fonts\LibreBaskervilleRegular.svg" />
+                        </Folder>
+                        <Folder name="images">
+                            <Folder name="about">
+                                <Folder name="gallery">
+                                    <File name="assets\themes\samurai\css\images\about\gallery\2-big.jpg" />
+                                    <File name="assets\themes\samurai\css\images\about\gallery\2.jpg" />
+                                    <File name="assets\themes\samurai\css\images\about\gallery\3.jpg" />
+                                    <File name="assets\themes\samurai\css\images\about\gallery\4.jpg" />
+                                    <File name="assets\themes\samurai\css\images\about\gallery\video.jpg" />
+                                </Folder>
+                                <File name="assets\themes\samurai\css\images\about\about3-img.jpg" />
+                                <File name="assets\themes\samurai\css\images\about\people1.jpg" />
+                                <File name="assets\themes\samurai\css\images\about\people2.jpg" />
+                                <File name="assets\themes\samurai\css\images\about\people3.jpg" />
+                            </Folder>
+                            <Folder name="background">
+                                <File name="assets\themes\samurai\css\images\background\2.jpg" />
+                                <File name="assets\themes\samurai\css\images\background\3.jpg" />
+                                <File name="assets\themes\samurai\css\images\background\4.jpg" />
+                                <File name="assets\themes\samurai\css\images\background\5.jpg" />
+                            </Folder>
+                            <Folder name="blog">
+                                <Folder name="avatars">
+                                    <File name="assets\themes\samurai\css\images\blog\avatars\1.jpg" />
+                                    <File name="assets\themes\samurai\css\images\blog\avatars\2.jpg" />
+                                    <File name="assets\themes\samurai\css\images\blog\avatars\3.jpg" />
+                                    <File name="assets\themes\samurai\css\images\blog\avatars\4.jpg" />
+                                </Folder>
+                                <Folder name="post1">
+                                    <File name="assets\themes\samurai\css\images\blog\post1\blog_single.jpg" />
+                                    <File name="assets\themes\samurai\css\images\blog\post1\blog_single2.jpg" />
+                                    <File name="assets\themes\samurai\css\images\blog\post1\blog_single3.jpg" />
+                                </Folder>
+                                <File name="assets\themes\samurai\css\images\blog\1.jpg" />
+                                <File name="assets\themes\samurai\css\images\blog\2.jpg" />
+                                <File name="assets\themes\samurai\css\images\blog\3.jpg" />
+                                <File name="assets\themes\samurai\css\images\blog\4.jpg" />
+                                <File name="assets\themes\samurai\css\images\blog\location.jpg" />
+                            </Folder>
+                            <Folder name="fancybox">
+                                <File name="assets\themes\samurai\css\images\fancybox\fancybox-x.png" />
+                                <File name="assets\themes\samurai\css\images\fancybox\fancybox-y.png" />
+                                <File name="assets\themes\samurai\css\images\fancybox\fancybox.png" />
+                                <File name="assets\themes\samurai\css\images\fancybox\fancy_title_over.png" />
+                            </Folder>
+                            <Folder name="portfolio">
+                                <Folder name="1">
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\1-small.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\1.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\2-small.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\2.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\3-small.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\3.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\4-small.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\4.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\5-small.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\5.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\6-small.jpg" />
+                                    <File name="assets\themes\samurai\css\images\portfolio\1\6.jpg" />
+                                </Folder>
+                                <File name="assets\themes\samurai\css\images\portfolio\1.jpg" />
+                                <File name="assets\themes\samurai\css\images\portfolio\2.jpg" />
+                                <File name="assets\themes\samurai\css\images\portfolio\3.jpg" />
+                                <File name="assets\themes\samurai\css\images\portfolio\4.jpg" />
+                            </Folder>
+                            <Folder name="slider">
+                                <File name="assets\themes\samurai\css\images\slider\1.jpg" />
+                                <File name="assets\themes\samurai\css\images\slider\2.jpg" />
+                                <File name="assets\themes\samurai\css\images\slider\3.jpg" />
+                            </Folder>
+                            <Folder name="social">
+                                <File name="assets\themes\samurai\css\images\social\facebook-gray.png" />
+                                <File name="assets\themes\samurai\css\images\social\facebook-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\facebook-white.png" />
+                                <File name="assets\themes\samurai\css\images\social\facebook.png" />
+                                <File name="assets\themes\samurai\css\images\social\flickr-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\flickr.png" />
+                                <File name="assets\themes\samurai\css\images\social\google-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\google.png" />
+                                <File name="assets\themes\samurai\css\images\social\instagram-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\instagram.png" />
+                                <File name="assets\themes\samurai\css\images\social\linkedin-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\linkedin.png" />
+                                <File name="assets\themes\samurai\css\images\social\mail-gray.png" />
+                                <File name="assets\themes\samurai\css\images\social\mail-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\mail-white.png" />
+                                <File name="assets\themes\samurai\css\images\social\mail.png" />
+                                <File name="assets\themes\samurai\css\images\social\pinterest-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\pinterest.png" />
+                                <File name="assets\themes\samurai\css\images\social\rss-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\rss.png" />
+                                <File name="assets\themes\samurai\css\images\social\twitter-gray.png" />
+                                <File name="assets\themes\samurai\css\images\social\twitter-green.png" />
+                                <File name="assets\themes\samurai\css\images\social\twitter-white.png" />
+                                <File name="assets\themes\samurai\css\images\social\twitter.png" />
+                            </Folder>
+                            <File name="assets\themes\samurai\css\images\arrow-left.png" />
+                            <File name="assets\themes\samurai\css\images\blog_left.png" />
+                            <File name="assets\themes\samurai\css\images\blog_right.png" />
+                            <File name="assets\themes\samurai\css\images\close.png" />
+                            <File name="assets\themes\samurai\css\images\dropdown.png" />
+                            <File name="assets\themes\samurai\css\images\enter.png" />
+                            <File name="assets\themes\samurai\css\images\left-opacity.png" />
+                            <File name="assets\themes\samurai\css\images\left-small-opacity.png" />
+                            <File name="assets\themes\samurai\css\images\left-small.png" />
+                            <File name="assets\themes\samurai\css\images\left.png" />
+                            <File name="assets\themes\samurai\css\images\loading.gif" />
+                            <File name="assets\themes\samurai\css\images\logo-small.png" />
+                            <File name="assets\themes\samurai\css\images\logo.png" />
+                            <File name="assets\themes\samurai\css\images\play.png" />
+                            <File name="assets\themes\samurai\css\images\respond.png" />
+                            <File name="assets\themes\samurai\css\images\right-opacity.png" />
+                            <File name="assets\themes\samurai\css\images\right-small-opacity.png" />
+                            <File name="assets\themes\samurai\css\images\right-small.png" />
+                            <File name="assets\themes\samurai\css\images\right.png" />
+                            <File name="assets\themes\samurai\css\images\search.png" />
+                        </Folder>
+                        <File name="assets\themes\samurai\css\general.css" />
+                        <File name="assets\themes\samurai\css\jquery.fancybox-1.3.4.css" />
+                        <File name="assets\themes\samurai\css\jquery.jscrollpane.css" />
+                        <File name="assets\themes\samurai\css\mk.css" />
+                    </Folder>
+                    <Folder name="dialog">
+                        <File name="assets\themes\samurai\dialog\index.html" />
+                    </Folder>
+                    <Folder name="images">
+                        <File name="assets\themes\samurai\images\logo.png" />
+                    </Folder>
+                    <Folder name="js">
+                        <Folder name="libs">
+                            <File name="assets\themes\samurai\js\libs\jquery-1.10.2.min.js" />
+                            <File name="assets\themes\samurai\js\libs\jquery.fancybox-1.3.4.pack.js" />
+                            <File name="assets\themes\samurai\js\libs\jquery.flexslider-min.js" />
+                            <File name="assets\themes\samurai\js\libs\jquery.jscrollpane.min.js" />
+                            <File name="assets\themes\samurai\js\libs\jquery.mousewheel.js" />
+                        </Folder>
+                        <File name="assets\themes\samurai\js\jquery.tools.min.js" />
+                        <File name="assets\themes\samurai\js\scripts.js" />
+                    </Folder>
+                    <File name="assets\themes\samurai\about1.html" />
+                    <File name="assets\themes\samurai\about2.html" />
+                    <File name="assets\themes\samurai\about3.html" />
+                    <File name="assets\themes\samurai\blog-archive.html" />
+                    <File name="assets\themes\samurai\blog-single.html" />
+                    <File name="assets\themes\samurai\contacts.html" />
+                    <File name="assets\themes\samurai\home.html" />
+                    <File name="assets\themes\samurai\index4d6d.html" />
+                    <File name="assets\themes\samurai\portfolio-single.html" />
+                    <File name="assets\themes\samurai\portfolio.html" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="CodeIgniter-2.2.1" />
+        <Folder name="system">
+            <Folder name="core">
+                <File name="system\core\Benchmark.php" />
+                <File name="system\core\CodeIgniter.php" />
+                <File name="system\core\Common.php" />
+                <File name="system\core\Config.php" />
+                <File name="system\core\Controller.php" />
+                <File name="system\core\Exceptions.php" />
+                <File name="system\core\Hooks.php" />
+                <File name="system\core\index.html" />
+                <File name="system\core\Input.php" />
+                <File name="system\core\Lang.php" />
+                <File name="system\core\Loader.php" />
+                <File name="system\core\Model.php" />
+                <File name="system\core\Output.php" />
+                <File name="system\core\Router.php" />
+                <File name="system\core\Security.php" />
+                <File name="system\core\URI.php" />
+                <File name="system\core\Utf8.php" />
+            </Folder>
+            <Folder name="database">
+                <Folder name="drivers">
+                    <Folder name="cubrid">
+                        <File name="system\database\drivers\cubrid\cubrid_driver.php" />
+                        <File name="system\database\drivers\cubrid\cubrid_forge.php" />
+                        <File name="system\database\drivers\cubrid\cubrid_result.php" />
+                        <File name="system\database\drivers\cubrid\cubrid_utility.php" />
+                        <File name="system\database\drivers\cubrid\index.html" />
+                    </Folder>
+                    <Folder name="mssql">
+                        <File name="system\database\drivers\mssql\index.html" />
+                        <File name="system\database\drivers\mssql\mssql_driver.php" />
+                        <File name="system\database\drivers\mssql\mssql_forge.php" />
+                        <File name="system\database\drivers\mssql\mssql_result.php" />
+                        <File name="system\database\drivers\mssql\mssql_utility.php" />
+                    </Folder>
+                    <Folder name="mysql">
+                        <File name="system\database\drivers\mysql\index.html" />
+                        <File name="system\database\drivers\mysql\mysql_driver.php" />
+                        <File name="system\database\drivers\mysql\mysql_forge.php" />
+                        <File name="system\database\drivers\mysql\mysql_result.php" />
+                        <File name="system\database\drivers\mysql\mysql_utility.php" />
+                    </Folder>
+                    <Folder name="mysqli">
+                        <File name="system\database\drivers\mysqli\index.html" />
+                        <File name="system\database\drivers\mysqli\mysqli_driver.php" />
+                        <File name="system\database\drivers\mysqli\mysqli_forge.php" />
+                        <File name="system\database\drivers\mysqli\mysqli_result.php" />
+                        <File name="system\database\drivers\mysqli\mysqli_utility.php" />
+                    </Folder>
+                    <Folder name="oci8">
+                        <File name="system\database\drivers\oci8\index.html" />
+                        <File name="system\database\drivers\oci8\oci8_driver.php" />
+                        <File name="system\database\drivers\oci8\oci8_forge.php" />
+                        <File name="system\database\drivers\oci8\oci8_result.php" />
+                        <File name="system\database\drivers\oci8\oci8_utility.php" />
+                    </Folder>
+                    <Folder name="odbc">
+                        <File name="system\database\drivers\odbc\index.html" />
+                        <File name="system\database\drivers\odbc\odbc_driver.php" />
+                        <File name="system\database\drivers\odbc\odbc_forge.php" />
+                        <File name="system\database\drivers\odbc\odbc_result.php" />
+                        <File name="system\database\drivers\odbc\odbc_utility.php" />
+                    </Folder>
+                    <Folder name="pdo">
+                        <File name="system\database\drivers\pdo\index.html" />
+                        <File name="system\database\drivers\pdo\pdo_driver.php" />
+                        <File name="system\database\drivers\pdo\pdo_forge.php" />
+                        <File name="system\database\drivers\pdo\pdo_result.php" />
+                        <File name="system\database\drivers\pdo\pdo_utility.php" />
+                    </Folder>
+                    <Folder name="postgre">
+                        <File name="system\database\drivers\postgre\index.html" />
+                        <File name="system\database\drivers\postgre\postgre_driver.php" />
+                        <File name="system\database\drivers\postgre\postgre_forge.php" />
+                        <File name="system\database\drivers\postgre\postgre_result.php" />
+                        <File name="system\database\drivers\postgre\postgre_utility.php" />
+                    </Folder>
+                    <Folder name="sqlite">
+                        <File name="system\database\drivers\sqlite\index.html" />
+                        <File name="system\database\drivers\sqlite\sqlite_driver.php" />
+                        <File name="system\database\drivers\sqlite\sqlite_forge.php" />
+                        <File name="system\database\drivers\sqlite\sqlite_result.php" />
+                        <File name="system\database\drivers\sqlite\sqlite_utility.php" />
+                    </Folder>
+                    <Folder name="sqlsrv">
+                        <File name="system\database\drivers\sqlsrv\index.html" />
+                        <File name="system\database\drivers\sqlsrv\sqlsrv_driver.php" />
+                        <File name="system\database\drivers\sqlsrv\sqlsrv_forge.php" />
+                        <File name="system\database\drivers\sqlsrv\sqlsrv_result.php" />
+                        <File name="system\database\drivers\sqlsrv\sqlsrv_utility.php" />
+                    </Folder>
+                    <File name="system\database\drivers\index.html" />
+                </Folder>
+                <File name="system\database\DB.php" />
+                <File name="system\database\DB_active_rec.php" />
+                <File name="system\database\DB_cache.php" />
+                <File name="system\database\DB_driver.php" />
+                <File name="system\database\DB_forge.php" />
+                <File name="system\database\DB_result.php" />
+                <File name="system\database\DB_utility.php" />
+                <File name="system\database\index.html" />
+            </Folder>
+            <Folder name="fonts">
+                <File name="system\fonts\index.html" />
+                <File name="system\fonts\texb.ttf" />
+            </Folder>
+            <Folder name="helpers">
+                <File name="system\helpers\array_helper.php" />
+                <File name="system\helpers\captcha_helper.php" />
+                <File name="system\helpers\cookie_helper.php" />
+                <File name="system\helpers\date_helper.php" />
+                <File name="system\helpers\directory_helper.php" />
+                <File name="system\helpers\download_helper.php" />
+                <File name="system\helpers\email_helper.php" />
+                <File name="system\helpers\file_helper.php" />
+                <File name="system\helpers\form_helper.php" />
+                <File name="system\helpers\html_helper.php" />
+                <File name="system\helpers\index.html" />
+                <File name="system\helpers\inflector_helper.php" />
+                <File name="system\helpers\language_helper.php" />
+                <File name="system\helpers\number_helper.php" />
+                <File name="system\helpers\path_helper.php" />
+                <File name="system\helpers\security_helper.php" />
+                <File name="system\helpers\smiley_helper.php" />
+                <File name="system\helpers\string_helper.php" />
+                <File name="system\helpers\text_helper.php" />
+                <File name="system\helpers\typography_helper.php" />
+                <File name="system\helpers\url_helper.php" />
+                <File name="system\helpers\xml_helper.php" />
+            </Folder>
+            <Folder name="language">
+                <Folder name="english">
+                    <File name="system\language\english\calendar_lang.php" />
+                    <File name="system\language\english\date_lang.php" />
+                    <File name="system\language\english\db_lang.php" />
+                    <File name="system\language\english\email_lang.php" />
+                    <File name="system\language\english\form_validation_lang.php" />
+                    <File name="system\language\english\ftp_lang.php" />
+                    <File name="system\language\english\imglib_lang.php" />
+                    <File name="system\language\english\index.html" />
+                    <File name="system\language\english\migration_lang.php" />
+                    <File name="system\language\english\number_lang.php" />
+                    <File name="system\language\english\profiler_lang.php" />
+                    <File name="system\language\english\unit_test_lang.php" />
+                    <File name="system\language\english\upload_lang.php" />
+                </Folder>
+                <File name="system\language\index.html" />
+            </Folder>
+            <Folder name="libraries">
+                <Folder name="Cache">
+                    <Folder name="drivers">
+                        <File name="system\libraries\Cache\drivers\Cache_apc.php" />
+                        <File name="system\libraries\Cache\drivers\Cache_dummy.php" />
+                        <File name="system\libraries\Cache\drivers\Cache_file.php" />
+                        <File name="system\libraries\Cache\drivers\Cache_memcached.php" />
+                        <File name="system\libraries\Cache\drivers\index.html" />
+                    </Folder>
+                    <File name="system\libraries\Cache\Cache.php" />
+                    <File name="system\libraries\Cache\index.html" />
+                </Folder>
+                <Folder name="javascript">
+                    <File name="system\libraries\javascript\index.html" />
+                    <File name="system\libraries\javascript\Jquery.php" />
+                </Folder>
+                <File name="system\libraries\Calendar.php" />
+                <File name="system\libraries\Cart.php" />
+                <File name="system\libraries\Driver.php" />
+                <File name="system\libraries\Email.php" />
+                <File name="system\libraries\Encrypt.php" />
+                <File name="system\libraries\Form_validation.php" />
+                <File name="system\libraries\Ftp.php" />
+                <File name="system\libraries\Image_lib.php" />
+                <File name="system\libraries\index.html" />
+                <File name="system\libraries\Javascript.php" />
+                <File name="system\libraries\Log.php" />
+                <File name="system\libraries\Migration.php" />
+                <File name="system\libraries\Pagination.php" />
+                <File name="system\libraries\Parser.php" />
+                <File name="system\libraries\Profiler.php" />
+                <File name="system\libraries\Session.php" />
+                <File name="system\libraries\Sha1.php" />
+                <File name="system\libraries\Table.php" />
+                <File name="system\libraries\Trackback.php" />
+                <File name="system\libraries\Typography.php" />
+                <File name="system\libraries\Unit_test.php" />
+                <File name="system\libraries\Upload.php" />
+                <File name="system\libraries\User_agent.php" />
+                <File name="system\libraries\Xmlrpc.php" />
+                <File name="system\libraries\Xmlrpcs.php" />
+                <File name="system\libraries\Zip.php" />
+            </Folder>
+            <File name="system\.htaccess" />
+            <File name="system\index.html" />
+        </Folder>
+        <Folder name="user_guide">
+            <Folder name="database">
+                <File name="user_guide\database\active_record.html" />
+                <File name="user_guide\database\caching.html" />
+                <File name="user_guide\database\call_function.html" />
+                <File name="user_guide\database\configuration.html" />
+                <File name="user_guide\database\connecting.html" />
+                <File name="user_guide\database\examples.html" />
+                <File name="user_guide\database\fields.html" />
+                <File name="user_guide\database\forge.html" />
+                <File name="user_guide\database\helpers.html" />
+                <File name="user_guide\database\index.html" />
+                <File name="user_guide\database\queries.html" />
+                <File name="user_guide\database\results.html" />
+                <File name="user_guide\database\table_data.html" />
+                <File name="user_guide\database\transactions.html" />
+                <File name="user_guide\database\utilities.html" />
+            </Folder>
+            <Folder name="doc_style">
+                <File name="user_guide\doc_style\index.html" />
+                <File name="user_guide\doc_style\template.html" />
+            </Folder>
+            <Folder name="general">
+                <File name="user_guide\general\alternative_php.html" />
+                <File name="user_guide\general\ancillary_classes.html" />
+                <File name="user_guide\general\autoloader.html" />
+                <File name="user_guide\general\caching.html" />
+                <File name="user_guide\general\cli.html" />
+                <File name="user_guide\general\common_functions.html" />
+                <File name="user_guide\general\controllers.html" />
+                <File name="user_guide\general\core_classes.html" />
+                <File name="user_guide\general\creating_drivers.html" />
+                <File name="user_guide\general\creating_libraries.html" />
+                <File name="user_guide\general\credits.html" />
+                <File name="user_guide\general\drivers.html" />
+                <File name="user_guide\general\environments.html" />
+                <File name="user_guide\general\errors.html" />
+                <File name="user_guide\general\helpers.html" />
+                <File name="user_guide\general\hooks.html" />
+                <File name="user_guide\general\libraries.html" />
+                <File name="user_guide\general\managing_apps.html" />
+                <File name="user_guide\general\models.html" />
+                <File name="user_guide\general\profiling.html" />
+                <File name="user_guide\general\quick_reference.html" />
+                <File name="user_guide\general\requirements.html" />
+                <File name="user_guide\general\reserved_names.html" />
+                <File name="user_guide\general\routing.html" />
+                <File name="user_guide\general\security.html" />
+                <File name="user_guide\general\styleguide.html" />
+                <File name="user_guide\general\urls.html" />
+                <File name="user_guide\general\views.html" />
+            </Folder>
+            <Folder name="helpers">
+                <File name="user_guide\helpers\array_helper.html" />
+                <File name="user_guide\helpers\captcha_helper.html" />
+                <File name="user_guide\helpers\cookie_helper.html" />
+                <File name="user_guide\helpers\date_helper.html" />
+                <File name="user_guide\helpers\directory_helper.html" />
+                <File name="user_guide\helpers\download_helper.html" />
+                <File name="user_guide\helpers\email_helper.html" />
+                <File name="user_guide\helpers\file_helper.html" />
+                <File name="user_guide\helpers\form_helper.html" />
+                <File name="user_guide\helpers\html_helper.html" />
+                <File name="user_guide\helpers\inflector_helper.html" />
+                <File name="user_guide\helpers\language_helper.html" />
+                <File name="user_guide\helpers\number_helper.html" />
+                <File name="user_guide\helpers\path_helper.html" />
+                <File name="user_guide\helpers\security_helper.html" />
+                <File name="user_guide\helpers\smiley_helper.html" />
+                <File name="user_guide\helpers\string_helper.html" />
+                <File name="user_guide\helpers\text_helper.html" />
+                <File name="user_guide\helpers\typography_helper.html" />
+                <File name="user_guide\helpers\url_helper.html" />
+                <File name="user_guide\helpers\xml_helper.html" />
+            </Folder>
+            <Folder name="images">
+                <File name="user_guide\images\appflowchart.gif" />
+                <File name="user_guide\images\arrow.gif" />
+                <File name="user_guide\images\ci_logo.jpg" />
+                <File name="user_guide\images\ci_logo_flame.jpg" />
+                <File name="user_guide\images\ci_quick_ref.png" />
+                <File name="user_guide\images\codeigniter_1.7.1_helper_reference.pdf" />
+                <File name="user_guide\images\codeigniter_1.7.1_helper_reference.png" />
+                <File name="user_guide\images\codeigniter_1.7.1_library_reference.pdf" />
+                <File name="user_guide\images\codeigniter_1.7.1_library_reference.png" />
+                <File name="user_guide\images\file.gif" />
+                <File name="user_guide\images\folder.gif" />
+                <File name="user_guide\images\nav_bg_darker.jpg" />
+                <File name="user_guide\images\nav_separator_darker.jpg" />
+                <File name="user_guide\images\nav_toggle_darker.jpg" />
+                <File name="user_guide\images\reactor-bullet.png" />
+                <File name="user_guide\images\smile.gif" />
+                <File name="user_guide\images\transparent.gif" />
+            </Folder>
+            <Folder name="installation">
+                <File name="user_guide\installation\downloads.html" />
+                <File name="user_guide\installation\index.html" />
+                <File name="user_guide\installation\troubleshooting.html" />
+                <File name="user_guide\installation\upgrade_120.html" />
+                <File name="user_guide\installation\upgrade_130.html" />
+                <File name="user_guide\installation\upgrade_131.html" />
+                <File name="user_guide\installation\upgrade_132.html" />
+                <File name="user_guide\installation\upgrade_133.html" />
+                <File name="user_guide\installation\upgrade_140.html" />
+                <File name="user_guide\installation\upgrade_141.html" />
+                <File name="user_guide\installation\upgrade_150.html" />
+                <File name="user_guide\installation\upgrade_152.html" />
+                <File name="user_guide\installation\upgrade_153.html" />
+                <File name="user_guide\installation\upgrade_154.html" />
+                <File name="user_guide\installation\upgrade_160.html" />
+                <File name="user_guide\installation\upgrade_161.html" />
+                <File name="user_guide\installation\upgrade_162.html" />
+                <File name="user_guide\installation\upgrade_163.html" />
+                <File name="user_guide\installation\upgrade_170.html" />
+                <File name="user_guide\installation\upgrade_171.html" />
+                <File name="user_guide\installation\upgrade_172.html" />
+                <File name="user_guide\installation\upgrade_200.html" />
+                <File name="user_guide\installation\upgrade_201.html" />
+                <File name="user_guide\installation\upgrade_202.html" />
+                <File name="user_guide\installation\upgrade_203.html" />
+                <File name="user_guide\installation\upgrade_210.html" />
+                <File name="user_guide\installation\upgrade_211.html" />
+                <File name="user_guide\installation\upgrade_212.html" />
+                <File name="user_guide\installation\upgrade_213.html" />
+                <File name="user_guide\installation\upgrade_214.html" />
+                <File name="user_guide\installation\upgrade_220.html" />
+                <File name="user_guide\installation\upgrade_221.html" />
+                <File name="user_guide\installation\upgrade_b11.html" />
+                <File name="user_guide\installation\upgrading.html" />
+            </Folder>
+            <Folder name="libraries">
+                <File name="user_guide\libraries\benchmark.html" />
+                <File name="user_guide\libraries\caching.html" />
+                <File name="user_guide\libraries\calendar.html" />
+                <File name="user_guide\libraries\cart.html" />
+                <File name="user_guide\libraries\config.html" />
+                <File name="user_guide\libraries\email.html" />
+                <File name="user_guide\libraries\encryption.html" />
+                <File name="user_guide\libraries\file_uploading.html" />
+                <File name="user_guide\libraries\form_validation.html" />
+                <File name="user_guide\libraries\ftp.html" />
+                <File name="user_guide\libraries\image_lib.html" />
+                <File name="user_guide\libraries\input.html" />
+                <File name="user_guide\libraries\javascript.html" />
+                <File name="user_guide\libraries\language.html" />
+                <File name="user_guide\libraries\loader.html" />
+                <File name="user_guide\libraries\migration.html" />
+                <File name="user_guide\libraries\output.html" />
+                <File name="user_guide\libraries\pagination.html" />
+                <File name="user_guide\libraries\parser.html" />
+                <File name="user_guide\libraries\security.html" />
+                <File name="user_guide\libraries\sessions.html" />
+                <File name="user_guide\libraries\table.html" />
+                <File name="user_guide\libraries\trackback.html" />
+                <File name="user_guide\libraries\typography.html" />
+                <File name="user_guide\libraries\unit_testing.html" />
+                <File name="user_guide\libraries\uri.html" />
+                <File name="user_guide\libraries\user_agent.html" />
+                <File name="user_guide\libraries\xmlrpc.html" />
+                <File name="user_guide\libraries\zip.html" />
+            </Folder>
+            <Folder name="nav">
+                <File name="user_guide\nav\hacks.txt" />
+                <File name="user_guide\nav\moo.fx.js" />
+                <File name="user_guide\nav\nav.js" />
+                <File name="user_guide\nav\prototype.lite.js" />
+                <File name="user_guide\nav\user_guide_menu.js" />
+            </Folder>
+            <Folder name="overview">
+                <File name="user_guide\overview\appflow.html" />
+                <File name="user_guide\overview\at_a_glance.html" />
+                <File name="user_guide\overview\cheatsheets.html" />
+                <File name="user_guide\overview\features.html" />
+                <File name="user_guide\overview\getting_started.html" />
+                <File name="user_guide\overview\goals.html" />
+                <File name="user_guide\overview\index.html" />
+                <File name="user_guide\overview\mvc.html" />
+            </Folder>
+            <Folder name="tutorial">
+                <File name="user_guide\tutorial\conclusion.html" />
+                <File name="user_guide\tutorial\create_news_items.html" />
+                <File name="user_guide\tutorial\hard_coded_pages.html" />
+                <File name="user_guide\tutorial\index.html" />
+                <File name="user_guide\tutorial\news_section.html" />
+                <File name="user_guide\tutorial\static_pages.html" />
+            </Folder>
+            <File name="user_guide\changelog.html" />
+            <File name="user_guide\index.html" />
+            <File name="user_guide\license.html" />
+            <File name="user_guide\toc.html" />
+            <File name="user_guide\userguide.css" />
+        </Folder>
+        <File name=".gitignore" />
+        <File name=".htaccess" />
+        <File name=".travis.yml" />
+        <File name="CodeIgniter-2.2.1.zip" />
+        <File name="codeigniter-simplicity-master.zip" />
+        <File name="index.php" />
+        <File name="license.txt" />
+        <File name="LOGO.png" />
+        <File name="README.md" />
+        <File name="test.php" />
+    </Project>
+</NotepadPlus>
