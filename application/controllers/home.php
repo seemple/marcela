@@ -108,6 +108,9 @@ class Home extends CI_Controller {
 			$params = array("user_id"=>$this->config->item("flickr_user"),"photoset_id"=>$photoset,"extras"=>"date_upload");
 			$fotos = $this->flickr->get("flickr.photosets.getPhotos",$params);
 			$favs = array();
+			
+			// Obtener titulo del album
+			$sel = array_values(array_filter($alb,function($a) use ($photoset){ return ($a["id"]==$photoset);}));
 
 		if ($fotos['stat'] == 'ok') {
 			
@@ -119,12 +122,12 @@ class Home extends CI_Controller {
 						$info["dateupload"] = date('d/m/Y', $item["dateupload"]);
 						$info["id"] = $item["id"];
 						$info["pic"] = "https://farm".$item["farm"].".staticflickr.com/".$item["server"]."/".$item["id"]."_".$item["secret"]."_c.jpg";
-						$info["alb_title"] = $alb[0]["title"]["_content"];
-						$info["create_alb"] = $alb[0]["date_create"];
+						$info["alb_title"] = $sel[0]["title"]["_content"];
+						$info["create_alb"] = $sel[0]["date_create"];
 						array_push ($favs,$info);
 			}
 			
-			return $this->{$section}("album_detail",$favs,"gallerypage","Albums - ".$alb[0]["title"]["_content"]);
+			return $this->{$section}("album_detail",$favs,"gallerypage","Albums - ".$sel[0]["title"]["_content"]);
 
 			
 		} else {

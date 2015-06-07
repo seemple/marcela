@@ -547,7 +547,7 @@ body p {
   color: #111111;
 }
 body a {
-  color: #cccccc;
+  color: #b4baeb;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -555,10 +555,10 @@ body a {
   transition: all 0.3s ease;
 }
 body a:hover {
-  color: #fff;
+  color: #FFF;
 }
 html.aboutpage body {
-  background: #000000 url('images/background/2.jpg') no-repeat center center fixed;
+  background: #000000 url('../images/fnd-contacto.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -580,7 +580,7 @@ html.awardpage body {
   background-size: cover;
 }
 html.contactpage body {
-  background: #000000 url('images/background/2.jpg') no-repeat center center fixed;
+  background: #000000 url('../images/fnd-acerca.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -641,18 +641,19 @@ nav.main-menu ul.menu-right > li:hover {
   height: 40px;
 }
 nav.main-menu ul.logo {
-  width: 133px;
-  height: 52px;
-  margin: 7px 60px 0;
-  background: url("images/logo.png") no-repeat center;
+  width: 135px;
+  height: 30px;
+  margin: 15px 60px 0;
+  background: url("../images/logo.png") no-repeat center;
 }
 nav.main-menu ul.logo a {
-  width: 133px;
-  height: 52px;
   display: block;
 }
 nav.main-menu ul.menu .active {
   color: #fff;
+}
+nav.main-menu .menu-right {
+  width: 350px !important;
 }
 nav.main-menu ul.menu > li:hover > ul {
   visibility: visible;
@@ -1721,7 +1722,7 @@ nav.main-menu ul.menu > li ul li {
 }
 .about-center-align .content-left .nav li a:hover,
 .about-center-align .content-left .nav li a.active {
-  color: #8caa6f;
+  color: #FFF;
 }
 .about-center-align .content-left .peoples {
   margin-top: 20px;
@@ -1838,7 +1839,7 @@ nav.main-menu ul.menu > li ul li {
   font-size: 13px;
 }
 .about-center-align .content-right .text p:last-child {
-  margin-bottom: 160px;
+  margin-bottom: 50px;
 }
 .about-center-align .content-bottom {
   position: absolute;
@@ -2010,8 +2011,8 @@ nav.main-menu ul.menu > li ul li {
 .contacts-center .content .right textarea[type=submit] {
   width: 96%;
   height: 37px;
-  background-color: #665f57;
-  color: #fff;
+  background-color: #32386b;
+  color: #b4baeb;
   text-transform: none;
 }
 .contacts-center .content .right .form-left {
@@ -2669,7 +2670,7 @@ nav.footer-menu .center {
   left: 50%;
   bottom: 0;
   margin-left: -105px;
-  color: #8caa6f;
+  color: #b4baeb;
   text-align: center;
   letter-spacing: 0.075em;
   cursor: pointer;
@@ -2681,7 +2682,7 @@ nav.footer-menu .center .nav > li {
 }
 nav.footer-menu .center .nav > li:hover {
   color: #111111;
-  background-color: #819d66;
+  background-color: #4a539e;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -2694,7 +2695,7 @@ nav.footer-menu .center .nav ul {
   /* отступ выпадающего меню */
 
   padding: 20px 0 20px 0;
-  background-color: #8caa6f;
+  background-color: #4a539e;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: visibility 0s linear 0.3s opacity 0.3s linear;
@@ -2708,10 +2709,10 @@ nav.footer-menu .center .nav ul > li a {
   text-align: center;
   padding: 7px 0;
   display: block;
-  color: #111111;
+  color: #b4baeb;
 }
 nav.footer-menu .center .nav ul > li a:hover {
-  color: #3c4c32;
+  color: #FFF;
 }
 nav.footer-menu .center .nav li:hover > ul {
   display: block;

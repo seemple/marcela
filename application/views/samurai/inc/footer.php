@@ -5,12 +5,14 @@
             <ul class="left">
                 <li class="facebook"><a href="#" ></a></li>
                 <li class="twitter"><a href="#" ></a></li>
-                <li class="google"><a href="#" ></a></li>
+				<li class="mail"><a href="<?= base_url();?>contacto" ></a></li>
+                <!--
+				<li class="google"><a href="#" ></a></li>
                 <li class="pinterest"><a href="#" ></a></li>
                 <li class="flickr"><a href="#" ></a></li>
                 <li class="linkedin"><a href="#" ></a></li>
                 <li class="instagram"><a href="#" ></a></li>
-                <li class="mail"><a href="#" ></a></li>
+				-->
             </ul>
 
             <!-- Footer Menu -->

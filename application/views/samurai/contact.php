@@ -3,24 +3,21 @@
     <div class="contacts-center">
         <div class="content">
 
-            <h2>Contact Us</h2>
+            <h2>Contacto</h2>
 
             <div class="contact-content">
                 <div class="left">
                     <p class="contacts">
-                        Samurai Photography         <br>
+                        <strong>Marcela Khouri Fotografía</strong>        <br>
                         Germany Berlin, Main street 43  <br>
                         Vivamus tempor,            <br>
                         Suspendisse tellus,      <br>
                         Phasellus sit amet.                        <br>
                         T: +8 800 435-17-20                <br>
-                        E: info@samurai.co.uk            <br>
+                        E: info@mkfotografia.com.ar            <br>
                     </p>
 
-                    <p class="info">
-                        Vivamus tempor vel magna vel blandit.
-                        Donec non nisi eget lacus commodo blandit
-                        id vel arcu. Phasellus ac metus quis.
+                    <p class="info">Gracias por su interés. Por favor, complete los datos que figuran y a la brevedad me contactaré con usted.
                     </p>
                 </div>
 
