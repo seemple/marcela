@@ -43,7 +43,7 @@ $route['404_override'] = '';
 $route["albums"] = "home/albums/index";
 $route["inicio"] = "home/homepage/index";
 $route["albums/(:any)/(:num)"] = "home/view_album/index/$2";
-$route["acerca_de"] = "home/index/about/NULL/aboutpage";
+$route["acerca_de"] = "home/index/about/NULL/aboutpage/Acerca de";
 $route["contacto"] = "home/contacto/index";
 
 /* End of file routes.php */

@@ -9,7 +9,7 @@
         <div class="content-right">
             <div class="text">
 
-                <img src="<?php echo base_url();?>/assets/themes/samurai/css/images/about/about3-img.jpg" alt=""/>
+                <img src="<?php echo base_url();?>/assets/themes/samurai/images/marcela.jpg" alt=""/>
                 <h2 class="about-3">Marcela Khouri</h2>
                 <p>
                     Mi nombre es Marcela Khouri, desde muy ni&ntilde;a me gust&oacute; estar en contacto con la naturaleza.
