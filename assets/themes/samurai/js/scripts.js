@@ -108,7 +108,7 @@ function InitContact()
 		e.preventDefault();
 					$.ajax({
 						type: "POST",
-						url: "/marcela/contacto/enviar",
+						url: "/contacto/enviar",
 						data: $('#formContacto .campos').serialize()
 					}).success(function(response) {
 						response = JSON.parse(response);
