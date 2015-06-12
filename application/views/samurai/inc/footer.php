@@ -3,8 +3,8 @@
         <div class="home">
             <!-- Social -->
             <ul class="left">
-                <li class="facebook"><a href="#" ></a></li>
-                <li class="twitter"><a href="#" ></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/marcela.khouri" target="_blank" ></a></li>
+                <li class="twitter"><a href="http://www.twitter.com/marcelakhouri" target="_blank" ></a></li>
 				<li class="mail"><a href="<?= base_url();?>contacto" ></a></li>
                 <!--
 				<li class="google"><a href="#" ></a></li>

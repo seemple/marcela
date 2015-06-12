@@ -9,12 +9,11 @@
                 <div class="left">
                     <p class="contacts">
                         <strong>Marcela Khouri Fotografía</strong>        <br>
-                        Germany Berlin, Main street 43  <br>
-                        Vivamus tempor,            <br>
-                        Suspendisse tellus,      <br>
-                        Phasellus sit amet.                        <br>
-                        T: +8 800 435-17-20                <br>
-                        E: info@mkfotografia.com.ar            <br>
+                        Facebook | Marcela Khouri  <br>
+                        Twitter | @MarcelaKhouri.            <br>
+                        Email: marcelakhouri@yahoo.com.ar <br>
+                        Capital Federal, Argentina<br>
+                                   <br>
                     </p>
 
                     <p class="info">Gracias por su interés. Por favor, complete los datos que figuran y a la brevedad me contactaré con usted.
