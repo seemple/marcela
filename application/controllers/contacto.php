@@ -22,7 +22,7 @@ public function enviar()
 				
 				}
 				
-				if ( $this->mailing->enviar("martin@seemple.com.ar",$str,"MK Fotografias - Contacto") ) {
+				if ( $this->mailing->enviar("marcelakhouri@yahoo.com.ar",$str,"Marcela Khouri Web - Contacto") ) {
 	
 					echo json_encode(
 									array("titulo"=>"Contacto",
