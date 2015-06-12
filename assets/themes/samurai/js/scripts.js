@@ -113,6 +113,7 @@ function InitContact()
 					}).success(function(response) {
 						response = JSON.parse(response);
 						$(".contact-footer").append(response.mensaje);
+						$("#formContacto .campos").val("");
 					});
 		
 	});
