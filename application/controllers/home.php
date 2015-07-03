@@ -22,7 +22,7 @@ class Home extends CI_Controller {
 		$params = array("user_id"=>$this->config->item("flickr_user"));
 		$rsp = $this->flickr->get("flickr.photosets.getList",$params);
 		$photosets = $rsp["photosets"]["photoset"];
-		$albumlist = [];
+		$albumlist = array();
 		if ($rsp['stat'] == 'ok') {
 			foreach ($photosets as $i => $v ) {
 				$info["title"] = $v["title"]["_content"];

@@ -23,13 +23,6 @@ Los invito a conocer m&aacute;s sobre mis fotos, a disfrutar de momentos detenid
                 <p>
     No dude en contactarme para poder ofrecerle una atenci&oacute;n personalizada.
                 </p>
-                <p>
-                    Realic&eacute; cursos de fotograf&iacute;a  anal&oacute;gica y digital, y tengo para ofrecerles variedad de im&aacute;genes,  fotos de paisajes, retratos, animales, flores, tem&aacute;ticas etc.
-Los invito a conocer m&aacute;s sobre mis fotos, a disfrutar de momentos detenidos  en el tiempo.... y porque no, a emocionarse con ellos.
-                </p>
-                <p>
-    No dude en contactarme para poder ofrecerle una atenci&oacute;n personalizada.
-                </p>
             </div>
         </div>
     </div>
