@@ -4,20 +4,20 @@
         <ul class="slides">
 
             <!-- Slide -->
-            <?php foreach ($data as $item) { ?>
+            <?php $n=0; foreach ($data as $item) { ?>
             <li style="background-image: url('<?php echo $item["pic"];?>'); background-size: cover;">
-                <section>
+                <?php if ($n==0){?>
+				<section>
                     <div class="section-content">
-                        <p class="category">Samurai Photography</p>
-                        <h2 class="caption">Responsive template</h2>
-                        <p class="text">
-                            Samurai Photography - is the best way to build an awesome photography site in our world. You can easily create a realy good site with a pretty design and good gallery system.
+                        <p class="category">Portfolio Profesional</p>
+                        <h2 class="caption">MARCELA KHOURI</h2>
+                        <p class="text">Les doy la bienvenida a mi website, donde podrán apreciar una selección de mis mejores fotografías. Espero que lo disfruten!
                         </p>
-                        <em class="href"> <a href="blog-single.html">Read Full Post</a> </em>
                     </div>
                 </section>
+				<?php }?>
             </li>
-            <?php }?>
+            <?php $n++;}?>
 
 
         </ul>

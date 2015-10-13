@@ -3,6 +3,8 @@
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/jquery.tools.min.js"></script>
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/libs/jquery.flexslider-min.js"></script>
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/libs/jquery.mousewheel.js"></script>
+    <script src="<?php echo base_url("assets/themes/samurai");?>/js/libs/jquery.jscrollpane.min.js"></script>
+	<script src="<?php echo base_url("assets/themes/samurai");?>/js/rsv.js"></script>
     <!-- Custom -->
     <script src="<?php echo base_url("assets/themes/samurai");?>/js/scripts.js"></script>
 
@@ -12,5 +14,5 @@
         $('.menu-left > li > a:eq(3)').addClass('active');
 
         // Other Stuff
-        Init<?php echo ucFirst($init);?>();
+        Init<?php if ($init) echo ucFirst($init);?>();
     </script>

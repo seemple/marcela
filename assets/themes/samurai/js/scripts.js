@@ -87,6 +87,39 @@ function InitHome()
     });
 }
 
+/* CONTACT */
+
+function InitContact()
+{
+	
+    $("#formContacto").RSV({
+				  onCompleteHandler: $(this).submit(),
+				  displayType: "alert-one",
+				  errorFieldClass: "formee-error",
+						rules: [
+								"valid_email,email,Por favor ingrese un email correcto.",
+								"required,email,Por favor ingrese su email.",
+								"required,nombre,Por favor ingrese su nombre.",
+								"required,mensaje,Por favor ingrese su mensaje."
+								 ]
+	});
+	
+	$("#formContacto").submit(function(e){
+		e.preventDefault();
+					$.ajax({
+						type: "POST",
+						url: "/contacto/enviar",
+						data: $('#formContacto .campos').serialize()
+					}).success(function(response) {
+						response = JSON.parse(response);
+						$(".contact-footer").append(response.mensaje);
+						$("#formContacto .campos").val("");
+					});
+		
+	});
+
+} 
+	
 /***********************************************************/
 /* BLOG
 /***********************************************************/
@@ -166,7 +199,7 @@ function InitAbout()
     }
 
     // SYNAMIC TEXT + SCROLL RESET
-    $(".peoples li .click").click(function(){
+   /* $(".peoples li .click").click(function(){
         // TEXT
         var text = $(this).parents('li').children('.dynamic-text').html();
         $(".content-right .text").html(text);
@@ -177,7 +210,7 @@ function InitAbout()
         var api = jpane.data('jsp');
         api.reinitialise();
         api.scrollToY(0);
-    });
+    });*/
 }
 
 /***********************************************************/
@@ -252,7 +285,7 @@ function InitAlbums()
     });
 }
 
-function InitPortfolioFlexSlider()
+function InitAlbum_detail()
 {
     var count = $('#carousel li').length;
     var scroll = $('.slider .scrollbar');

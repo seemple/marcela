@@ -13,7 +13,7 @@
 
             <!-- Main Menu Right -->
             <ul class="menu menu-right">
-                <li><a href="<?php echo base_url();?>">Facebook</a> </li>
+                <li><a href="https://www.facebook.com/marcela.khouri" target="_blank">Facebook</a> </li>
                 <li><a href="<?php echo base_url();?>contacto">Contacto</a></li>
             </ul>
 

@@ -11,14 +11,14 @@
                     <!-- Item -->
                     <div class="item">
                         <div class="img">
-                            <a href="/albums/<?php echo url_title($item["title"]);?>/<?php echo $item["id"];?>">
+                            <a href="<?php echo base_url();?>albums/<?php echo url_title($item["title"]);?>/<?php echo $item["album_id"];?>">
                                 <p>Ver Album</p>
                                 <span class="darken"></span>
                                 <span class="border"></span>
                                 <img src="<?php echo $item["pic"];?>" alt="<?php echo $item["title"];?>" />
                             </a>
                             <div class="portfolio-text">
-                                <h2><a href="/albums/<?php echo url_title($item["title"]);?>/<?php echo $item["id"];?>"><?php echo $item["title"];?></a></h2>
+                                <h2><a href="<?php echo base_url();?>albums/<?php echo url_title($item["title"]);?>/<?php echo $item["album_id"];?>"><?php echo $item["title"];?></a></h2>
                                 <p class="by">by <a href="#">Marcela Khouri</a></p>
                                 <p class="text"></p>
                             </div>
